@@ -8,7 +8,7 @@
   },
   "bin": {
     "@guillermosd/restful-directory": "bin/restful-directory",
-	"restful-directory": "bin/restful-directory"
+    "restful-directory": "bin/restful-directory"
   },
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,7 @@
   },
   "keywords": [
     "cli",
-	"restful-directory"
+    "restful-directory"
   ],
   "author": "",
   "license": "ISC",
@@ -28,8 +28,10 @@
   },
   "homepage": "https://github.com/GuillermoCoding/restful-directory#readme",
   "dependencies": {
+    "arg": "^4.1.1",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "inquirer": "^7.0.0",
     "ngrok": "^3.2.5"
   },
   "devDependencies": {
