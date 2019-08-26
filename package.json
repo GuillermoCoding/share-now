@@ -10,10 +10,17 @@
     "@guillermosd/restful-directory": "bin/restful-directory",
 	"restful-directory": "bin/restful-directory"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuillermoCoding/restful-directory.git"
   },
+  "keywords": [
+    "cli",
+	"restful-directory"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
