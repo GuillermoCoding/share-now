@@ -1,4 +1,6 @@
 const express = require('express');
+const ngrok = require('ngrok');
+const PORT = 3000;
 const app = express();
 
 app.get('/', function(req, res) {
@@ -6,7 +8,8 @@ app.get('/', function(req, res) {
   res.send('Working');
 });
 
-
-app.listen(3000, function (req, res) {
-  console.log('Listening on port 3000...')
+app.listen(PORT, async function (req, res) {
+  const url = await ngrok.connect(PORT);
+  console.log(`Listening on port...${PORT}`);
+  console.log(`ngrok url: ${url}`)
 });

@@ -2,9 +2,13 @@
   "name": "restful-directory",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "@guillermosd/restful-directory": "bin/restful-directory",
+	"restful-directory": "bin/restful-directory"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/GuillermoCoding/restful-directory#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "ngrok": "^3.2.5"
   },
