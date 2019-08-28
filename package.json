@@ -1,8 +1,8 @@
 {
-  "name": "restful-directory",
+  "name": "cloud-directory",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
