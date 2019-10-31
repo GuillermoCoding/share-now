@@ -1,38 +1,37 @@
 {
-  "name": "cloud-directory",
-  "version": "1.0.0",
+  "name": "share-now",
+  "version": "1.0.1",
   "description": "",
   "main": "src/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "@guillermosd/restful-directory": "bin/restful-directory",
-    "restful-directory": "bin/restful-directory"
+    "@guillermosd/share-now": "bin/share-now",
+    "share-now": "bin/share-now"
   },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GuillermoCoding/restful-directory.git"
+    "url": "git+https://github.com/GuillermoCoding/share-now.git"
   },
   "keywords": [
     "cli",
-    "restful-directory"
+    "share-now"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GuillermoCoding/restful-directory/issues"
+    "url": "https://github.com/GuillermoCoding/share-now/issues"
   },
-  "homepage": "https://github.com/GuillermoCoding/restful-directory#readme",
+  "homepage": "https://github.com/GuillermoCoding/share-now#readme",
   "dependencies": {
-    "arg": "^4.1.1",
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "inquirer": "^7.0.0",
-    "ngrok": "^3.2.5"
+    "ngrok": "^3.2.5",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
