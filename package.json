@@ -33,7 +33,5 @@
     "ngrok": "^3.2.5",
     "path": "^0.12.7"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+  "devDependencies": {}
 }
