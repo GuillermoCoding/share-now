@@ -1,9 +1,19 @@
-# share-now
+### ShareNow
 
-## Getting Started
+ShareNow is the fastest way to share a local file by generating a public ULR straight from your terminal!
 
-`npm i -g share-now`
+#### Prerequisite
 
-`share-now <file_location>`
+Must have NPM installed
 
-![gif](https://media.giphy.com/media/jUKBByYLmdcGOZfZTK/giphy.gif)
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+#### Getting Started
+
+```console
+foo@bar:~$ npm install -g share-now
+```
+
+```console
+foo@bar:~$ share-now FILE_PATH
+```
