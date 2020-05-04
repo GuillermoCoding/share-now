@@ -10,15 +10,15 @@ const app = express();
 export function cli(args) {
   const filePath = args[2];
   if (!fs.existsSync(filePath)) {
-    console.log("ERROR: The file path not exist. Please try again.".brightRed);
+    console.log(`ERROR: The file path not exist. Please try again.`.brightRed);
   } else {
     app.listen(PORT, async function(req, res) {
       const url = await ngrok.connect(PORT);
-      console.log("Your file "+filePath.brightGreen+" is available at -> "+url.brightBlue);
+      console.log(`Your file ${filePath.brightGreen} is available at -> ${url.brightBlue}`);
     });
 
     app.get('/', function(req, res) {
-      console.log("Your file "+fileName+" has been downloaded.");
+      console.log(`Your file ${fileName} has been downloaded.`);
       res.download(path.join(process.cwd(), filePath));
     })
   }
