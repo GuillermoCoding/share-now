@@ -17,3 +17,6 @@ foo@bar:~$ npm install -g share-now
 ```console
 foo@bar:~$ share-now FILE_PATH
 ```
+
+#### Screenshot
+![CLI display](/cli-screenshot.png)
