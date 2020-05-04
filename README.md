@@ -19,4 +19,4 @@ foo@bar:~$ share-now FILE_PATH
 ```
 
 #### Screenshot
-![CLI display](/cli-screenshot.png)
+<img src="./cli-screenshot.png" width="700">
