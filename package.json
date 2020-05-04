@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/GuillermoCoding/share-now#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "ngrok": "^3.2.5",
