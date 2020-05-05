@@ -18,5 +18,6 @@ foo@bar:~$ npm install -g share-now
 foo@bar:~$ share-now FILE_PATH
 ```
 
-#### Screenshot
-<img src="./assets/cli-screenshot.png" width="700">
+#### Screenshoots
+<img src="./assets/sharenow-cli-1.png" width="700">
+<img src="./assets/sharenow-cli-2.png" width="700">
