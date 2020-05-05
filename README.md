@@ -1,6 +1,6 @@
 ### ShareNow
 
-ShareNow is the fastest way to share a local file by generating a public ULR straight from your terminal!
+ShareNow is the fastest way to share any local file by generating a public URL straight from your terminal!
 
 #### Prerequisite
 
@@ -19,4 +19,4 @@ foo@bar:~$ share-now FILE_PATH
 ```
 
 #### Screenshot
-<img src="./cli-screenshot.png" width="700">
+<img src="./assets/cli-screenshot.png" width="700">
