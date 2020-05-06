@@ -1,6 +1,6 @@
-### ShareNow
+### ShareNow CLI
 
-ShareNow is the fastest way to share any local file by generating a public URL straight from your terminal!
+Instantly share any local file straight from your terminal 🚀
 
 #### Prerequisite
 
@@ -8,11 +8,12 @@ Must have NPM installed
 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-#### Getting Started
+#### Installation
 
 ```console
 foo@bar:~$ npm install -g share-now
 ```
+#### Getting Started
 
 ```console
 foo@bar:~$ share-now FILE_PATH
