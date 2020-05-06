@@ -22,4 +22,6 @@ foo@bar:~$ share-now FILE_PATH
 #### Screenshots
 <img src="./assets/cli-screenshot-1.png" width="700">
 
+<img src="./assets/cli-screenshot-3.png" width="700" heigth="200">
+
 <img src="./assets/cli-screenshot-2.png" width="700">
