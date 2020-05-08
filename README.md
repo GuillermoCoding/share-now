@@ -1,6 +1,6 @@
 ### ShareNow CLI
 
-Instantly share any local file straight from your terminal 🚀
+Peer-to-peer file sharing straight from your terminal 🚀
 
 #### Prerequisite
 
